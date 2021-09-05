@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Mi pimer pagina web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PAgina web para practicar">
+        <meta name="author" content="Maximiliano Romero">
+        <meta name="keywords" content="pagina web, practica, entrenamieto, cosas varias">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+        </style>
+            
+    </head>
+
+    <body>
+        <div class="contenedor-pagina"> 
+        
+        <header class="cabecera">
+            <h1 class="cabecera__titulo">Area 51</h1>
+
+            <nav class="nav">
+                <ul class="barra-nav"> 
+                    <li class="barra-nav__item"><a href="/index.html">Información</a></li>
+                    <li class="barra-nav__item"><a href="/index.html">OVNIS en el cine</a></li>
+                    <li class="barra-nav__item"><a href="/index.html"> Reportar abducción</a></li>
+                    <li class="barra-nav__item"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+         </header>
+
+
+        
+
+        <section>
+            <div class="contenedor__pelicula">
+                <img class="pelicula__imagen" src="/images/et.jpg" alt="ET">
+                <p class="pelicula__texto">E.T., el extraterrestre es una película estadounidense de ciencia ficción de 1982 dirigida por Steven Spielberg, escrita por Melissa Mathison, protagonizada por Henry Thomas y distribuida por Universal Pictures. La cinta está basada en un amigo imaginario del propio director, creado tras el divorcio de sus padres. En 1980, Spielberg conoció a Mathison y empezaron a desarrollar la historia, tras el proyecto estancado Night Skies.
+                    La película, cuyo rodaje se llevó a cabo entre septiembre y diciembre de 1981 en California de manera cronológica para conseguir actuaciones emocionales y más convincentes, tuvo un presupuesto de 10.5 millones de dólares y se convirtió en un éxito de taquilla. E.T fue la película más taquillera hasta el momento -superando, incluso, a Star Wars (1977) y solo otra película dirigida por Spielberg le robó el mérito: Parque Jurásico (1993).
+                    Los críticos la aclamaron como una historia intemporal de la amistad y la sitúan como la película de ciencia ficción más grande jamás realizada según una encuesta del sitio web Rotten Tomatoes. Se re-estrenó en 1985 y en 2002, para celebrar su vigésimo aniversario con planos y escenas adicionales modificadas.
+                    En los Premios Óscar de 1997, ganó la estatuilla como Mejor Maquillaje, además de obtener otras dos nominaciones por Mejor banda sonora y Mejor Dirección de Arte.</p>
+            </div>
+            <div class="pelicula__video"> 
+                   <iframe src="https://www.youtube.com/embed/qYAETtIIClk" width="100%" height="100%" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </div>
+
+
+    <footer class="pie-de-pagina" id="contacto">
+
+        <div class="pie__lado-izquierdo">
+            <div class="lado-izquierdo__red"><img src="/images/facebook-circle-logo-48.png" alt=""><h3>Facebook: Maximiliano Romero</h3></div>
+            <div class="lado-izquierdo__red"><img src="/images/mail-send-regular-48.png" alt=""><h3>E-mail: maxiromero11@hotmail.com</h3></div>
+            <div class="lado-izquierdo__red"><img src="/images/instagram-logo-48.png" alt=""><h3>Instagram: MajijRom</h3></div>
+            <div class="lado-izquierdo__red"><img src="/images/whatsapp-logo-48.png" alt=""><h3>WhatsApp: 3415990014</h3></div>
+        </div>
+
+        <div class="pie__lado-derecho">
+            <form>
+                <input type="text" class="lado-derecho__input" placeholder="Nombre" required>
+                <input type="email" class="lado-derecho__input" placeholder="E-mail" required> 
+                <input type="text" class="lado-derecho__input" placeholder="Asunto" required>
+                <textarea name="comentario" id="comentario" placeholder="Comentario" class="lado-derecho__textarea" required></textarea>
+                <button type="submit" class="lado-derecho__submit">Enviar</button>
+            </form>
+    </div>
+
+    </footer>
+
+    </body>
+</html>
+
+
