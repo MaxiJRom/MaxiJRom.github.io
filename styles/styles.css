@@ -84,6 +84,10 @@
     .menu__toggle{
         transform: translateX(0%)
     }
+    
+    .hero{
+    height:50vh
+    }
 }
 
 
